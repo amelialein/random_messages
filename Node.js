@@ -34,39 +34,51 @@ const randomNounGenerator = () => {
     }
 }
 
-const randomVerbGenerator = () => {
-    let n = Math.floor(Math.random() * 15)
+const randomParticipleGenerator = () => {
+    let n = Math.floor(Math.random() * 20)
     console.log(n);
     if (n === 1) {
-        return "hides";
+        return "bat-fowling";
     } else if (n === 2) {
-        return "eats";
+        return "beetle-brained";
     } else if (n === 3) {
-        return "licks";
+        return "dismal-dreaming";
     } else if (n === 4) {
-        return "drains";
+        return "elvish-mark'd";
     } else if (n === 5) {
-        return "loves";
+        return "fat-kidneyed";
     } else if (n === 6) {
-        return "mocks";
+        return "folly-fallen";
     } else if (n === 7) {
-        return "drinks";
+        return "hell-hated";
     } else if (n === 8) {
-        return "microwaves";
+        return "idle-headed";
     } else if (n === 9) {
-        return "cooks";
+        return "ill-breeding";
     } else if (n === 10) {
-        return "bakes";
+        return "infant-like";
     } else if (n === 11) {
-        return "rubs";
+        return "milke-livered";
     } else if (n === 12) {
-        return "holds";
+        return "reeling-ripe";
     } else if (n === 13) {
-        return "punches";
+        return "rude-growing";
     } else if (n === 14) {
-        return "arouses";
+        return "sheep-biting";
     } else if (n === 0) {
-        return "disappoints";
+        return "sodden-witted";
+    } else if (n === 10) {
+        return "swag-bellied";
+    } else if (n === 11) {
+        return "tardy-gaited";
+    } else if (n === 12) {
+        return "three-inch";
+    } else if (n === 13) {
+        return "tickle-brained";
+    } else if (n === 14) {
+        return "toad-spotted";
+    } else if (n === 0) {
+        return "worsted-stocking";
     }
 }
 
@@ -122,5 +134,5 @@ const randomAdjGenerator = () => {
 
 
 console.log(randomAdjGenerator())
-console.log(randomVerbGenerator())
+console.log(randomParticipleGenerator())
 console.log(randomNounGenerator())
