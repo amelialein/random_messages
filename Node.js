@@ -1,6 +1,6 @@
 const randomNounGenerator = () => {
     let n = Math.floor(Math.random() * 20)
-    console.log(n);
+    //console.log(n);
     if (n === 1) {
         return "bed-presser";
     } else if (n === 2) {
@@ -48,7 +48,7 @@ const randomNounGenerator = () => {
 
 const randomParticipleGenerator = () => {
     let n = Math.floor(Math.random() * 20)
-    console.log(n);
+    //console.log(n);
     if (n === 1) {
         return "bat-fowling";
     } else if (n === 2) {
@@ -70,7 +70,7 @@ const randomParticipleGenerator = () => {
     } else if (n === 10) {
         return "infant-like";
     } else if (n === 11) {
-        return "milke-livered";
+        return "milk-livered";
     } else if (n === 12) {
         return "reeling-ripe";
     } else if (n === 13) {
@@ -96,55 +96,59 @@ const randomParticipleGenerator = () => {
 
 const randomAdjGenerator = () => {
     let n = Math.floor(Math.random() * 20)
-    console.log(n);
+    //console.log(n);
     if (n === 1) {
-        return "bawdy";
+        return "a bawdy";
     } else if (n === 2) {
-        return "brainsick";
+        return "a brainsick";
     } else if (n === 3) {
-        return "fat";
+        return "a fat";
     } else if (n === 4) {
-        return "false";
+        return "a false";
     } else if (n === 5) {
-        return "foul";
+        return "a foul";
     } else if (n === 6) {
-        return "greasy";
+        return "a greasy";
     } else if (n === 7) {
-        return "infectious";
+        return "an infectious";
     } else if (n === 8) {
-        return "kindless";
+        return "a kindless";
     } else if (n === 9) {
-        return "lecherous";
+        return "a lecherous";
     } else if (n === 10) {
-        return "paunchy";
+        return "a paunchy";
     } else if (n === 11) {
-        return "puking";
+        return "a puking";
     } else if (n === 12) {
-        return "qualling";
+        return "a qualling";
     } else if (n === 13) {
-        return "remorseless";
+        return "a remorseless";
     } else if (n === 14) {
-        return "rotten";
+        return "a rotten";
     } else if (n === 15) {
-        return "sanguine";
+        return "a sanguine";
     } else if (n === 16) {
-        return "spherical";
+        return "a spherical";
     } else if (n === 17) {
-        return "starveling";
+        return "a starveling";
     } else if (n === 18) {
-        return "vile";
+        return "a vile";
     } else if (n === 19) {
-        return "venemous";
+        return "a venemous";
     } else if (n === 20) {
-        return "ugly";
+        return "an ugly";
     } else if (n === 0) {
-        return "yeasty";
+        return "a yeasty";
     }
 }
 
+const createShakyInsult = () => {
+    console.log(`Thou art ${randomAdjGenerator()}, ${randomParticipleGenerator()} ${randomNounGenerator()}!!! Get thee gone from my presence this instant!`)
+}
 
 
+//console.log(randomAdjGenerator())
+//console.log(randomParticipleGenerator())
+//console.log(randomNounGenerator())
 
-console.log(randomAdjGenerator())
-console.log(randomParticipleGenerator())
-console.log(randomNounGenerator())
+createShakyInsult()
