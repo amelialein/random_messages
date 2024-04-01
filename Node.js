@@ -34,11 +34,46 @@ const randomNounGenerator = () => {
     }
 }
 
+const randomVerbGenerator = () => {
+    let n = Math.floor(Math.random() * 15)
+    console.log(n);
+    if (n === 1) {
+        return "hides";
+    } else if (n === 2) {
+        return "eats";
+    } else if (n === 3) {
+        return "licks";
+    } else if (n === 4) {
+        return "drains";
+    } else if (n === 5) {
+        return "loves";
+    } else if (n === 6) {
+        return "mocks";
+    } else if (n === 7) {
+        return "drinks";
+    } else if (n === 8) {
+        return "microwaves";
+    } else if (n === 9) {
+        return "cooks";
+    } else if (n === 10) {
+        return "bakes";
+    } else if (n === 11) {
+        return "rubs";
+    } else if (n === 12) {
+        return "holds";
+    } else if (n === 13) {
+        return "punches";
+    } else if (n === 14) {
+        return "arouses";
+    } else if (n === 0) {
+        return "disappoints";
+    }
+}
 
 
 
 
 
 
-
+console.log(randomVerbGenerator())
 console.log(randomNounGenerator())
