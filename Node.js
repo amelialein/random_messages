@@ -1,36 +1,48 @@
 const randomNounGenerator = () => {
-    let n = Math.floor(Math.random() * 15)
+    let n = Math.floor(Math.random() * 20)
     console.log(n);
     if (n === 1) {
-        return "face";
+        return "bed-presser";
     } else if (n === 2) {
-        return "relationship";
+        return "biscuit";
     } else if (n === 3) {
-        return "childhood";
+        return "boar-pig";
     } else if (n === 4) {
-        return "job";
+        return "bull's-pizzle";
     } else if (n === 5) {
-        return "mum";
+        return "carbuncle";
     } else if (n === 6) {
-        return "dad";
+        return "coward";
     } else if (n === 7) {
-        return "grandma";
+        return "death-token";
     } else if (n === 8) {
-        return "grandpa";
+        return "eel-skin";
     } else if (n === 9) {
-        return "voice";
+        return "fustilarian";
     } else if (n === 10) {
-        return "odour";
+        return "harlot";
     } else if (n === 11) {
-        return "singing";
+        return "hog";
     } else if (n === 12) {
-        return "nose";
+        return "horseback-breaker";
     } else if (n === 13) {
-        return "mouth";
+        return "knave";
     } else if (n === 14) {
-        return "clothing";
+        return "madman";
+    } else if (n === 15) {
+        return "neat's-tongue";
+    } else if (n === 16) {
+        return "ratsbane";
+    } else if (n === 17) {
+        return "rogue";
+    } else if (n === 18) {
+        return "stock-fish";
+    } else if (n === 19) {
+        return "whoreson";
+    } else if (n === 20) {
+        return "villain";
     } else if (n === 0) {
-        return "fashion sense";
+        return "worms-meat";
     }
 }
 
